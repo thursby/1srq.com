@@ -14,8 +14,17 @@ nav .brand-logo {
   color: #444;
 }
 
+#index-banner {
+  background: transparent url("img/sarasota_bay_sunset_1920x1280.jpg")  no-repeat fixed center !important;
+  background-size: cover !important;
+}
+
 p {
   line-height: 2rem;
+}
+
+.title {
+  font-weight: 600;
 }
 
 .button-collapse {
