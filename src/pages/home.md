@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/base.njk
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
@@ -19,9 +19,8 @@ tags:
     opacity:1,
     quality:'highres',
     stopMovieOnBlur:false}">
-  <div class="section no-pad-bot">
+  <div class="section">
     <div class="container">
-<br><br>
 <h1 class="header center">1SRQ</h1>
 <div class="row center">
 <h3 class="header col s12 light">Full stack is only half of it.</h3>
@@ -29,7 +28,6 @@ tags:
 <div class="row center">
 <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Find out more.</a>
 </div>
-<br><br>
     </div>
   </div>
 </div>
@@ -141,7 +139,7 @@ tags:
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
-        <h5 class="header col s12 light">Why drive your site with yesterday's tech? Assemble and Netlify are the absolute best technologies for high performance sites.</h5>
+        <h5 class="header col s12 light">Why drive your site with yesterday's tech? Use the absolute best technologies for high performance sites -- even when that is constantly changing.</h5>
       </div>
     </div>
   </div>
