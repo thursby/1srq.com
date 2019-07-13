@@ -126,8 +126,7 @@ stopMovieOnBlur:false}">
 <div class="section no-pad-bot">
 <div class="container">
 <div class="row center">
-  <h5 class="header col s12 light">Why drive your site with yesterday's tech? Use the absolute best technologies
-    for high performance sites -- even when that is constantly changing.</h5>
+  <h3 class="header col s12 bold">They say you can't have all three, but the way we work means you really can.</h3>
 </div>
 </div>
 </div>
@@ -140,10 +139,63 @@ stopMovieOnBlur:false}">
 <div class="row">
 <div class="col s12 center">
 
-  <h3><i class="mdi-content-send brown-text"></i></h3>
-  <h4>More Info</h4>
+  <h3>There's got to be a catch.</h3>
 
-  This is really cool stuff, and you basically need to do it right now. Here's why.
+  **Of course there is!** While the process has been thoroughly tested, documented, and will include personal one-on-one training -- it can take some time to become familiar with it. This isn't your soccer mom's WordPress, this is a finely tuned marketing machine.
+
+  With a modest budget, a WordPress site can certainly be good enough for many use cases.
+
+</div>
+
+####  Managed WordPress
+
+<div class="col s6">
+
+##### Pros
+* Flexible
+* Lots of pre-existing plugins
+* Lots of pre-existing themes
+* No setup fees
+
+</div>
+
+<div class="col s6">
+
+##### Cons
+* Ongoing costs, even if idle
+* Every plugin is more code and exposure
+* Backups are complicated to make and restore
+* Migrating frequently requires assistance and tweaking
+* High traffic can cause slowness, outages
+* Executing code means exposure to vulnerabilities
+
+</div>
+
+#### A Crushproof Site
+
+<div class="col s6">
+
+##### Pros
+* Fast page loads
+* Simple backups
+* Lots of pre-existing templates
+* Low or free ongoing costs, free if idle
+* Copy-and-paste migration
+* High traffic never slows down or stops your site
+* No need to ever update for security reasons
+* No code execution means minimal exposure to vulnerabilities
+
+</div>
+
+<div class="col s6">
+
+##### Cons
+* One on one training required to get started
+* Complexity means setup fees are involved
+* Fewer ready-made solutions exist for different use cases.
+
+</div>
+
 
 </div>
 </div>
