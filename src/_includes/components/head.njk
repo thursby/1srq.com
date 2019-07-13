@@ -1,9 +1,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="js/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Material Icons']
+      }
+    });
+  </script>
   <title>{{ title or renderData.title or metadata.title }}</title>
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{# 
+<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+#}
+
   {% set css %}
+    {% include "assets/css/materialize.css" %}
+    {% include "assets/css/main.css" %}
     {% include "assets/css/inline.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>

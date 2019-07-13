@@ -1,9 +1,22 @@
-<nav>
-  <ul>
-  {%- for nav in collections.nav | sort(attribute="date") -%}
-    <li>
-      <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
-    </li>
-  {%- endfor -%}
-  </ul>
+<nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo">1SRQ</a>
+    <ul class="right hide-on-med-and-down">
+      {% set navitems %}
+      {%- for nav in collections.nav | sort(attribute="date") -%}
+        <li>
+          <a href="{{ nav.url | url }}" {% if nav.url == page.url %} data-current="current item" {% endif %}>{{ nav.data.navtitle }}</a>
+        </li>
+      {%- endfor -%}
+      {% endset %}
+      {{ navitems | safe }}
+    </ul>
+
+    <ul id="nav-mobile" class="side-nav">
+      {{ navitems | safe }}
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse">
+      <i class="material-icons">menu</i>
+    </a>
+  </div>
 </nav>

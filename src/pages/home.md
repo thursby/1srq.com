@@ -5,16 +5,174 @@ date: 2016-01-01T00:00:00.000Z
 permalink: /
 navtitle: Home
 tags:
-  - nav
+- nav
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+<div id="index-banner" class="header-container" data-property="{
+    videoURL:'https://www.youtube.com/watch?v=CWPdmlLt1qI',
+    containment:'self',
+    autoPlay:true,
+    showControls:false,
+    mute:true,
+    startAt:120,
+    loop:true,
+    opacity:1,
+    quality:'highres',
+    stopMovieOnBlur:false}">
+  <div class="section no-pad-bot">
+    <div class="container">
+<br><br>
+<h1 class="header center">1SRQ</h1>
+<div class="row center">
+<h3 class="header col s12 light">Full stack is only half of it.</h3>
+</div>
+<div class="row center">
+<a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Find out more.</a>
+</div>
+<br><br>
+    </div>
+  </div>
+</div>
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on Github.
+<div class="container">
+  <div class="section">
+<div class="row">
+  <div class="col s12 m4">
+    <div class="icon-block">
+<h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+<h5 class="center">Basic</h5>
 
-Or click the button below to deploy your own copy of this project to Netlify.
+<p class="flow-text">Give your house a home on the Internet.</p>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+<ul class="collection">
+  <li class="collection-item avatar">
+    <i class="material-icons circle">folder</i>
+    <span class="title">Title</span>
+    <p>First Line <br>
+        Second Line
+    </p>
+  </li>
+  <li class="collection-item avatar">
+    <i class="material-icons circle green">insert_chart</i>
+    <span class="title">Title</span>
+    <p>First Line <br>
+        Second Line
+    </p>
+  </li>
+</ul>
+        </div>
+      </div>
+
+<div class="col s12 m4">
+<div class="icon-block">
+<h2 class="center brown-text"><i class="material-icons">group</i></h2>
+<h5 class="center">Deluxe</h5>
+
+<p class="flow-text">Get a domain name and other things.</p>
+
+<ul class="collection">
+  <li class="collection-item avatar">
+    <i class="material-icons circle red">play_arrow</i>
+    <span class="title">New Thing</span>
+    <p>It's got a star<br>
+        How bout dat?
+    </p>
+    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+  </li>
+  <li class="collection-item avatar">
+    <i class="material-icons circle">folder</i>
+    <span class="title">Title</span>
+    <p>First Line <br>
+        Second Line
+    </p>
+  </li>
+  <li class="collection-item avatar">
+    <i class="material-icons circle green">insert_chart</i>
+    <span class="title">Title</span>
+    <p>First Line <br>
+        Second Line
+    </p>
+  </li>
+</ul>
+
+</div>
+</div>
+
+<div class="col s12 m4">
+<div class="icon-block">
+<h2 class="center brown-text"><i class="material-icons">group</i></h2>
+<h5 class="center">Luxury</h5>
+
+<p class="flow-text">Get the full subscription to take care of everything.</p>
+
+<ul class="collection">
+  <li class="collection-item avatar">
+    <i class="material-icons circle red">play_arrow</i>
+    <span class="title">New Thing</span>
+    <p>It's got a star<br>
+        How bout dat?
+    </p>
+    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+  </li>
+  <li class="collection-item avatar">
+    <i class="material-icons circle">folder</i>
+    <span class="title">Title</span>
+    <p>First Line <br>
+        Second Line
+    </p>
+  </li>
+  <li class="collection-item avatar">
+    <i class="material-icons circle green">insert_chart</i>
+    <span class="title">Title</span>
+    <p>First Line <br>
+        Second Line
+    </p>
+  </li>
+</ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">Why drive your site with yesterday's tech? Assemble and Netlify are the absolute best technologies for high performance sites.</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/turbo_dans_jeep_1920x1280.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<div class="container">
+  <div class="section">
+
+<div class="row">
+  <div class="col s12 center">
+
+<h3><i class="mdi-content-send brown-text"></i></h3>
+<h4>More Info</h4>
+
+This is really cool stuff, and you basically need to do it right now. Here's why.
+
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">Made with 	&lt;3 right here in Sarasota, FL</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/unity_1920x1280.jpg" alt="Made with <3 right here in Sarasota, FL"></div>
+</div>
