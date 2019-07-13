@@ -41,9 +41,9 @@ tags:
   <div class="col s12 m4">
     <div class="icon-block">
 <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-<h5 class="center">Basic</h5>
+<h5 class="center">One</h5>
 
-<p class="flow-text">Give your house a home on the Internet.</p>
+<p class="flow-text">Something here.</p>
 
 <ul class="collection">
   <li class="collection-item avatar">
@@ -67,9 +67,9 @@ tags:
 <div class="col s12 m4">
 <div class="icon-block">
 <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-<h5 class="center">Deluxe</h5>
+<h5 class="center">Two</h5>
 
-<p class="flow-text">Get a domain name and other things.</p>
+<p class="flow-text">Another thing.</p>
 
 <ul class="collection">
   <li class="collection-item avatar">
@@ -102,9 +102,9 @@ tags:
 <div class="col s12 m4">
 <div class="icon-block">
 <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-<h5 class="center">Luxury</h5>
+<h5 class="center">Three</h5>
 
-<p class="flow-text">Get the full subscription to take care of everything.</p>
+<p class="flow-text">Third and best.</p>
 
 <ul class="collection">
   <li class="collection-item avatar">
